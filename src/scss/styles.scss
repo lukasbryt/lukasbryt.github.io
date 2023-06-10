@@ -1,0 +1,135 @@
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
+  @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;800&display=swap');
+  //posibli color --one: #9dff00
+  :root {
+    --one: #FFCA0D;
+    --two: #464646;
+    --three: #ffffff;
+  }
+
+  .footer{
+    border-radius: 15px 15px 0 0;
+  }
+#hr{
+    height: 2px;
+    background-color:var(--one);
+    border: none;
+}
+body {
+    background:var(--two);
+    font-family: 'Archivo', sans-serif;
+    min-height: 100vh;
+}
+html{
+    height: 100vh;
+}
+.main {
+    background-color: white;
+    border-radius: 16px 16px 0 0;
+}
+.footer{
+    background-color: var(--one)
+}
+strong{
+    font-weight: 900;
+}
+
+#btn-back{
+    width: 44px;
+}
+#btn-contact{
+    background-color: var(--one);
+    border-radius: 14px;
+    color: #464646;
+    padding: 6px 26px;
+    font-weight: 800;
+    text-decoration: none;
+}
+#btn-about{
+    background-color: var(--three);
+    border-radius: 14px;
+    color: #464646;
+    padding: 6px 26px;
+    font-weight: 800;
+    text-decoration: none;
+}
+#btn-git{
+    background-color:rgba(255, 255, 255, 0.089);
+    box-sizing: border-box;
+    border-radius: 14px;
+    color: var(--three);
+    text-decoration: none;
+    padding: 6px 20px;
+}
+
+h1 {font-weight: 400; color: var(--one); font-size: 20px; font-weight: 200;}
+h2 {font-weight: 400; color: var(--three); font-size: 16px; font-weight: 200;}
+h3 {color:var(--two); font-weight: 300;}
+
+@media (min-width: 280px) {
+    h1 {
+        font-size: 26px;
+        /* Tamanho da fonte para telas pequenas */
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 32px;
+        /* Tamanho da fonte para telas pequenas */
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+    #btn-back{
+        width: 52px;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 38px;
+        /* Tamanho da fonte para telas médias */
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+    #btn-back{
+        width: 56px;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 40px;
+        /* Tamanho da fonte para telas grandes */
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+    #btn-back{
+        width: 58px;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 46px;
+        /* Tamanho da fonte para telas extra grandes */
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+    #btn-back{
+        width: 60px;
+    }
+}

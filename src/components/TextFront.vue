@@ -13,7 +13,7 @@ import Card from '../components/Card.vue';
             <h1 class="mb-5 mb-lg-4 col-lg-6" style="color:#464646;" v-html="text"></h1>
             <div class="col-lg-6">
                 <Card content="Sou bom em usar <strong>Vue.js + Nuxt.js</strong> para iniciar um projeto <strong>:)</strong>" />
-                <Card content="Vamos construir um <strong>novo projeto</strong> juntos!" />  
+                <Card content="Gosto de trabalhar com <strong>pessoas</strong> e tecnologia!" />  
             </div>
             
         </div>

@@ -6,6 +6,8 @@ export default {
   components: { backBtn, TextFront, CardWorks }
 }
 </script>
+<script
+        type="text/javascript">window.$crisp = []; window.CRISP_WEBSITE_ID = "c00621ca-cbae-4d93-a0d5-bf8cb44bf40a"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();</script>
 <template>
   <main class="container container-fluid
   ">

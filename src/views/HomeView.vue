@@ -6,14 +6,10 @@ export default {
   components: { backBtn, TextFront, CardWorks }
 }
 </script>
-<script
-        type="text/javascript">window.$crisp = []; window.CRISP_WEBSITE_ID = "c00621ca-cbae-4d93-a0d5-bf8cb44bf40a"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();</script>
 <template>
   <main class="container container-fluid
   ">
     <aside>
-      <script
-        type="text/javascript">window.$crisp = []; window.CRISP_WEBSITE_ID = "c00621ca-cbae-4d93-a0d5-bf8cb44bf40a"; (function () { d = document; s = d.createElement("script"); s.src = "https://client.crisp.chat/l.js"; s.async = 1; d.getElementsByTagName("head")[0].appendChild(s); })();</script>
       <div class="justify-content-md-start justify-content-center text-center mb-4 row">
         <RouterLink class="mb-3 mb-md-0 col-6 col-md-3 col-lg-3 mx-3" id="btn-contact" to="/contact">CONTATO</RouterLink>
         <RouterLink class="mb-3 mb-md-0 col-6 col-md-3 col-lg-2" id="btn-about" to="/about">SOBRE</RouterLink>
